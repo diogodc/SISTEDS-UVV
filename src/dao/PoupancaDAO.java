@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package dao;
 
 import java.sql.PreparedStatement;
@@ -17,10 +13,7 @@ import modelo.PoupancaEmBanco;
 import utilitarios.ConectaBanco;
 import utilitarios.DataHora;
 
-/**
- *
- * @author Felipe
- */
+
 public class PoupancaDAO {
     ConectaBanco conexao = new ConectaBanco();
     DataHora dth = new DataHora();
